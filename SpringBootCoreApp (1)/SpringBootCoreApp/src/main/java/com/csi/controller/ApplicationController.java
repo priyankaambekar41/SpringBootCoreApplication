@@ -15,7 +15,8 @@ public class ApplicationController {
 
     @GetMapping("/welcome")
     public String sayWelcome(){
-		System.out.println("Line 1");
+		    System.out.println("Line number 2");
+		    System.out.println("Line 1");
         return "welcome to credit system india";
     }
 }
