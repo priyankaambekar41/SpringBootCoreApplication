@@ -12,4 +12,9 @@ public class ApplicationController {
     public String sayHello(){
         return "welcome to fintech csi pune";
     }
+
+    @GetMapping("/welcome")
+    public String sayWelcome(){
+        return "welcome to credit system india";
+    }
 }
